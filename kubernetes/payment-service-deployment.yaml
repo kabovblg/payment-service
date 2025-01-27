@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: payment-service-app
-          image: kabovblg/paymentservice
+          image: IMAGE_URL/paymentservice
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
